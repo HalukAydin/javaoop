@@ -12,7 +12,7 @@ public class main {
 
         p2.teaches();
 
-
+        System.out.println("......");
 
     }
 }
