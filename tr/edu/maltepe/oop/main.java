@@ -4,15 +4,24 @@ public class main {
 
     public static void main(String[] args) {
 
-        Professor p1;
-        p1=new Professor("Ensar");
-        p1.teaches();
-        Professor p2;
-        p2=new Professor("Raif");
+        Professor professor=new Professor("Ensar","gul",2,2020);
+        Student student=new Student("Haluk","Aydın",2,190704037);
 
-        p2.teaches();
+        System.out.println(professor.getName());
+        System.out.println(professor.getSurname());
+        System.out.println(professor.getClassroom());
+        System.out.println(professor.getId());
 
-        System.out.println("......");
+        System.out.println(student.getName());
+        System.out.println(student.getSurname());
+        System.out.println(student.getClassroom());
+        System.out.println(student.getId());
+
+        professor.teaches();
+
+
+
+
 
     }
 }
