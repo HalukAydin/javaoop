@@ -1,13 +1,17 @@
 package tr.edu.maltepe.oop;
 
-public class Professor extends Person{
+import java.util.Vector;
 
-
-     public Professor(String name,String surname,int classroom,int id) {
+public class Professor  extends Person{
+    public Professor(String name,String surname,int classroom,int id) {
         super(name,surname,classroom,id);
     }
 
-    public void teaches() {
-        System.out.println("Professor  " + getName() + getSurname() + " teaches now in class " + getClassroom());
+    public void ShowHavebook() {
     }
+
+
+    /*public void teaches() {
+        System.out.println("Professor  " + getName() + getSurname() + " teaches now in class " + getClassroom());
+    }*/
 }
