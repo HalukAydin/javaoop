@@ -27,19 +27,19 @@ public class Library {
         {
             person.borrowbook(book);
             removeBook(book);
-            System.out.println(book.getbookname()+" book was given to "+person.getName());
+            System.out.println(person.getName()+ " take the " +book.getbookname()+ " book");
             System.out.println(" ");
 
         }
         else{
-            System.out.println(book.getbookname()+" is not in the library now.");
+            System.out.println(book.getbookname()+ " is not in the library now.");
             System.out.println(" ");
         }
     }
-    public void borrowBook(Person person, book book){
+    public void give_Back_Book(Person person, book book){
         person.loanbook(book);
         addBook(book);
-        System.out.println(book.getbookname()+" book was taken from "+person.getName());
+        System.out.println( person.getName()+ " left the " + book.getbookname()+" book to library.");
         System.out.println(" ");
     }
 }

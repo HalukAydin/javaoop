@@ -17,7 +17,7 @@ public class main {
         library.addBook(book2);
         library.addBook(book3);
 
-        System.out.println("Library");
+        System.out.println("Library:");
 
         library.list_books();
         System.out.println(" ");
@@ -27,14 +27,17 @@ public class main {
 
         library.loanbook(student,book1);
 
-        library.borrowBook(professor,book1);
+        library.give_Back_Book(professor,book1);
         library.loanbook(professor,book3);
 
         library.loanbook(student,book1);
+        library.give_Back_Book(student,book2);
 
-        professor.ShowHavebook();
-        student.ShowHavebook();
 
+        System.out.println("Library:");
+        library.list_books();
+        professor.ShowHaveBooks();
+        student.ShowHaveBooks();
     }
 
 }

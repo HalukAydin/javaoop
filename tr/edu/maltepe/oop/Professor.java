@@ -7,8 +7,7 @@ public class Professor  extends Person{
         super(name,surname,classroom,id);
     }
 
-    public void ShowHavebook() {
-    }
+
 
 
     /*public void teaches() {

@@ -43,8 +43,7 @@ public class Person {
 
     public void ShowHaveBooks(){
         System.out.println("");
-        System.out.println(name+" has borrowed these books   ");
-        System.out.println("--------------------------------");
+        System.out.println(name+" has borrowed these books :  ");
         for (int i = 0; i< book.size();i++)
         {
             System.out.println(book.get(i).getbookname());
