@@ -31,28 +31,25 @@ public class Person {
     }
 
 
-
-    public void  ShowInfo()
-    {   System.out.println(" ");
-        System.out.println(" ID : "+ id +" Name : "+ name);
-    }
-
-    public void borrowbook (book bbook){
+    public void takeBook (book bbook){
         book.add(bbook);
     }
 
-    public void ShowHaveBooks(){
-        System.out.println("");
-        System.out.println(name+" has borrowed these books :  ");
-        for (int i = 0; i< book.size();i++)
-        {
-            System.out.println(book.get(i).getbookname());
-        }
-    }
 
     public void loanbook(book lbook){
         book.remove(lbook);
     }
+    public void ShowPersonBooks(){
+        System.out.println("");
+        System.out.println(name+" take these books :  ");
+        for (int i = 0; i< book.size();i++)
+        {
+            System.out.println(book.get(i).getBookname());
+        }
+    }
+
+
 }
+
 
 

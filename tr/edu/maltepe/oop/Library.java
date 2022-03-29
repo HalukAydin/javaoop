@@ -15,31 +15,31 @@ public class Library {
         books.remove(rbook);
     }
 
-    public void list_books (){
+    public void list_Books (){
         for (int i=0; i< books.size();i++ ){
             book temp = (book) books.get(i);
-            System.out.println(temp.getbookname());
+            System.out.println(temp.getBookname());
         }
     }
 
-    public void loanbook(Person person, book book){
+    public void loanBook(Person person, book book){
         if (books.contains(book))
         {
-            person.borrowbook(book);
+            person.takeBook(book);
             removeBook(book);
-            System.out.println(person.getName()+ " take the " +book.getbookname()+ " book");
+            System.out.println(person.getName()+ " take the " +book.getBookname()+ " book");
             System.out.println(" ");
 
         }
         else{
-            System.out.println(book.getbookname()+ " is not in the library now.");
+            System.out.println(book.getBookname()+ " is not in the library now.");
             System.out.println(" ");
         }
     }
-    public void give_Back_Book(Person person, book book){
-        person.loanbook(book);
-        addBook(book);
-        System.out.println( person.getName()+ " left the " + book.getbookname()+" book to library.");
+    public void give_Back_Book(Person person, book Book){
+        person.loanbook(Book);
+        addBook(Book);
+        System.out.println( person.getName()+ " left the " + Book.getBookname()+" book to library.");
         System.out.println(" ");
     }
 }
