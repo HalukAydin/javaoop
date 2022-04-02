@@ -2,25 +2,16 @@ package tr.edu.maltepe.oop;
 
 import java.util.Vector;
 
-public class Person {
+public class Person implements do_sport {
     private Vector<book> book = new Vector<book>();
-    private int id;
     private String name;
 
 
-    public Person(String name, String surname, int classroom, int id){
-        this.id = id;
+    public Person(String name){
+
         this.name= name;
     }
 
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
@@ -49,6 +40,15 @@ public class Person {
     }
 
 
+    @Override
+    public void swim() {
+
+    }
+
+    @Override
+    public void play_football() {
+
+    }
 }
 
 

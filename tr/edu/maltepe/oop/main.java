@@ -3,11 +3,42 @@ package tr.edu.maltepe.oop;
 import java.util.Vector;
 public class main  {
     public static void main(String[] args) {
-        book booka, bookb, bookc;
+        SportsCenter sportsCenter=new SportsCenter();
+        Professor professor  = new Professor("Ensar");
+        Student student = new Student("Haluk");
+
+        student.play_football();
+        professor.swim();
+        sportsCenter.goSportsCenter(professor);
+        sportsCenter.goSportsCenter(student);
+        System.out.println("SportsCenter List: ");
+        sportsCenter.list_SportsCenter();
+        sportsCenter.leave_fromSportsCenter(student);
+        System.out.println("SportsCenter List: ");
+        sportsCenter.list_SportsCenter();
+        sportsCenter.leave_fromSportsCenter(professor);
+        System.out.println("SportsCenter List: ");
+        sportsCenter.list_SportsCenter();
+    }
+
+}
+
+
+
+
+
+
+
+
+
+//LAB2
+
+
+    /*book booka, bookb, bookc;
         Library library = new Library();
 
-        Professor professor  = new Professor("Ensar","GUL",2,2022);
-        Student student = new Student("Haluk","AYDIN",2,190704037);
+        Professor professor  = new Professor("Ensar",2022);
+        Student student = new Student("Haluk",190704037);
 
         booka = new book("Java");
         bookb = new book("JavaScript");
@@ -37,19 +68,12 @@ public class main  {
         System.out.println("Library:");
         library.list_Books();
         professor.ShowPersonBooks();
-        student.ShowPersonBooks();
-    }
-
-}
+        student.ShowPersonBooks();*/
 
 
 
 
-
-
-
-
-
+//LAB1
 
         /*Professor professor=new Professor("Ensar","gul",2,2020);
         Student student=new Student("Haluk","Aydın",2,190704037);
