@@ -2,8 +2,8 @@ package tr.edu.maltepe.oop;
 
 import java.util.Vector;
 
-public class Person implements do_sport {
-    private Vector<book> book = new Vector<book>();
+public class Person  {
+    //private Vector<book> book = new Vector<book>();
     private String name;
 
 
@@ -22,7 +22,7 @@ public class Person implements do_sport {
     }
 
 
-    public void takeBook (book bbook){
+   /* public void takeBook (book bbook){
         book.add(bbook);
     }
 
@@ -37,18 +37,10 @@ public class Person implements do_sport {
         {
             System.out.println(book.get(i).getBookname());
         }
-    }
+    }*/
 
 
-    @Override
-    public void swim() {
 
-    }
-
-    @Override
-    public void play_football() {
-
-    }
 }
 
 

@@ -1,4 +1,4 @@
-package tr.edu.maltepe.oop;
+/*package tr.edu.maltepe.oop;
 
 import java.util.Vector;
 
@@ -42,6 +42,6 @@ public class Library {
         System.out.println( person.getName()+ " left the " + Book.getBookname()+" book to library.");
         System.out.println(" ");
     }
-}
+}*/
 
 
