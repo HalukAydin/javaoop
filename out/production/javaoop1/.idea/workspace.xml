@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27c76719-c92a-4c41-9392-2a2cd73faf2f" name="Changes" comment="javaopplab3">
-      <change afterPath="$PROJECT_DIR$/tr/edu/maltepe/oop/SportsCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tr/edu/maltepe/oop/do_sport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaoop1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaoop1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr/edu/maltepe/oop/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr/edu/maltepe/oop/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr/edu/maltepe/oop/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr/edu/maltepe/oop/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr/edu/maltepe/oop/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr/edu/maltepe/oop/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tr/edu/maltepe/oop/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/tr/edu/maltepe/oop/main.java" afterDir="false" />
-    </list>
+    <list default="true" id="27c76719-c92a-4c41-9392-2a2cd73faf2f" name="Changes" comment="javaopplab4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,7 +61,8 @@
       <workItem from="1648546306423" duration="3289000" />
       <workItem from="1648550744035" duration="311000" />
       <workItem from="1648730407460" duration="161000" />
-      <workItem from="1648899849651" duration="4929000" />
+      <workItem from="1648899849651" duration="6003000" />
+      <workItem from="1649079661561" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="javaopplab1">
       <created>1646738856663</created>
@@ -126,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648548566282</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="javaopplab4">
+      <created>1648905896451</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648905896451</updated>
+    </task>
+    <task id="LOCAL-00010" summary="javaopplab4">
+      <created>1648905922035</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648905922035</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="javaopplab1" />
     <MESSAGE value="javaopplab3" />
-    <option name="LAST_COMMIT_MESSAGE" value="javaopplab3" />
+    <MESSAGE value="javaopplab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="javaopplab4" />
   </component>
 </project>
